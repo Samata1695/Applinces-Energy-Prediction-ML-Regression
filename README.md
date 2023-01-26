@@ -34,6 +34,9 @@ As the energy crisis increasing day by day causes various factors to think for i
 
 <h2> :book: Problem Statement</h2>
 We have to predict Appliance energy consumption for a house based on factors like temperature, humidity & pressure . In order to achieve this, we need to develop a supervised learning model using regression algorithms. Regression algorithms are used as data consist of continuous features and there are no identification of appliances in dataset.
+* Which algorithm is giving best R2 score and least RMSE?
+
+* Is there any improvement in score after using hyperparameter tuning?
 
 <h2> :book: Data Summery</h2>
 The dataset collected contain various information regarding features by which energy is being used. The features incorporated by temperature, humidity, wind speed, pressure, etc. Our main target is to analyze the data and predict the energy consumed by the house using the given dataset. For the same, we need to develop a supervised machine learning model based on regression approach.  Illustration of the some major feature contained is given below:
@@ -104,7 +107,7 @@ It checks whether our data contains any missing value is there or not, then it w
 **2] Exploratory data analysis:**
 Here, we wish to gain important statistical insights from our data and analyze the distribution of various attributes, correlations between attributes and target variables, and important quotas and proportions of categorical attributes.
 
-**3]Train and testing procedure pipeline:**
+**3] Train and testing procedure pipeline:**
 Following methodology has been followed to train and test the model.
 
 * Storing of all the algorithm’s present in a list and then  Iterate over the list
@@ -114,6 +117,8 @@ Following methodology has been followed to train and test the model.
 * The regressor was design to fit on the test as well as training data
 
 * The properties of the regressor , Name, timining and score for training and testing set will be stored in a dictionary variable as key-value pairs.
+
+# :book: Result
 
 # :book: Conclusion
 
