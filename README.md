@@ -1,10 +1,11 @@
 <h1 align="center"> Appliance Energy Prediction- ML Regression Approach </h1>
-<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter </a> </h5>
 
 <p align="center"> 
 	
 ![image](https://user-images.githubusercontent.com/114068950/212836653-3d003162-ea5b-496b-8187-b2491fb3209b.png)
 </p>
+
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter </a> </h5>
 
 
 <p> Experimental data used to create regression models of appliances energy use in a low energy building</p>
@@ -40,6 +41,10 @@ We have to predict Appliance energy consumption for a house based on factors lik
 * Is there any improvement in score after using hyperparameter tuning?
 
 <h2> :book: Data Summery</h2>
+
+![image](https://user-images.githubusercontent.com/114068681/214818380-36f093b7-bfe8-45f8-86c4-354fc857efe1.png)
+
+
 The dataset collected contain various information regarding features by which energy is being used. The features incorporated by temperature, humidity, wind speed, pressure, etc. Our main target is to analyze the data and predict the energy consumed by the house using the given dataset. For the same, we need to develop a supervised machine learning model based on regression approach.  Illustration of the some major feature contained is given below:
 
 *	date: time: given date time month and day
