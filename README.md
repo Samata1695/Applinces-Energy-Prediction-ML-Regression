@@ -133,12 +133,13 @@ Following methodology has been followed to train and test the model.
 
 The top 3 important features are humidity attributes, which leads to the conclusion that humidity affects power consumption more than temperature. Windspeed is least important as the speed of wind doesn’t affect power consumption inside the house. So controlling humidity inside the house may lead to energy savings.
 
-📜 Credits
+# 📜 Credits
 Samata Parulekar | Aspiring Data Scientist
 
 linkedin.com/in/samatap
 
-📚 References
+# 📚 References
+
 * GeekforGeeks (https://www.geeksforgeeks.org/removing-stop-words-nltk-python/?ref=lbp)
 
 * Kaggle (https://www.kaggle.com/)
