@@ -34,6 +34,7 @@ As the energy crisis increasing day by day causes various factors to think for i
 
 <h2> :book: Problem Statement</h2>
 We have to predict Appliance energy consumption for a house based on factors like temperature, humidity & pressure . In order to achieve this, we need to develop a supervised learning model using regression algorithms. Regression algorithms are used as data consist of continuous features and there are no identification of appliances in dataset.
+
 * Which algorithm is giving best R2 score and least RMSE?
 
 * Is there any improvement in score after using hyperparameter tuning?
@@ -119,6 +120,14 @@ Following methodology has been followed to train and test the model.
 * The properties of the regressor , Name, timining and score for training and testing set will be stored in a dictionary variable as key-value pairs.
 
 # :book: Result
+
+![image](https://user-images.githubusercontent.com/114068681/214804970-64871899-f6ee-48d7-b1a5-12e8695a054d.png)
+
+
+* Best results for test set is being given by extra tree regressor with R2 score 0.5992 and least RMSE is also given by extra tree regressor that is 0.6127
+
+* Using hyperparameter tuning R2 score is improved from 0.5992 to 0.60 and RMSE is reduced from 0.6127 to 0.60
+
 
 # :book: Conclusion
 
