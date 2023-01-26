@@ -68,9 +68,9 @@ The dataset collected contain various information regarding features by which en
 *	Pressure : (from Chievres weather station), in mm Hg
 *	Wind speed: (from Chievres weather station), in m/s
 *	Visibility :(from Chievres weather station), in km
-*	Rv1 :Random variable 1, non-dimensional[1]
-*	Rv2 :Random variable 2, non-dimensional[1]
-*	Appliances : Total energy used by appliances, in Wh[1]
+*	Rv1 :Random variable 1, non-dimensional
+*	Rv2 :Random variable 2, non-dimensional
+*	Appliances : Total energy used by appliances, in Wh.
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -132,3 +132,15 @@ Following methodology has been followed to train and test the model.
 # :book: Conclusion
 
 The top 3 important features are humidity attributes, which leads to the conclusion that humidity affects power consumption more than temperature. Windspeed is least important as the speed of wind doesn’t affect power consumption inside the house. So controlling humidity inside the house may lead to energy savings.
+
+📜 Credits
+Samata Parulekar | Aspiring Data Scientist
+
+linkedin.com/in/samatap
+
+📚 References
+* GeekforGeeks (https://www.geeksforgeeks.org/removing-stop-words-nltk-python/?ref=lbp)
+
+* Kaggle (https://www.kaggle.com/)
+
+* Analytics Vidya
